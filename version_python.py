@@ -18,13 +18,13 @@ def main():
     print("Progrmacion dinamica")
 
     star_time=time.time_ns()
-    print(fibonacci(40))
+    print(fibonacci(4))
     end_time=time.time_ns()
     print(f"Time taken:{end_time-star_time}ns")
 
 
     star_time=time.time_ns()
-    print(fibonacci_caching(40))
+    print(fibonacci_caching(5))
     end_time=time.time_ns()
     print(f"Time taken:{end_time-star_time}ns")
 
